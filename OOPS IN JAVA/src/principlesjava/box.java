@@ -29,6 +29,10 @@ public class box {
         this.length = length;
         this.width = width;
     }
+
+    static void greeting(){
+        System.out.println("hey, I am in the box class. Greetings!");
+    }
     public void information(){
         System.out.println("Running the box");
     }
